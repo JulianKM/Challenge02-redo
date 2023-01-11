@@ -1,0 +1,142 @@
+* {
+    margin:0px;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    padding: 20px;
+    background-color: paleturquoise;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    color:white;
+    text-align: right;
+    background-color:cornflowerblue;
+    padding:10px;
+    margin:0px 10% 0px 0px;
+    font-size: 40px;
+    display: inline;
+    border: 5px solid;
+}
+
+header ul {
+    color:white;
+    flex-wrap: wrap;
+    margin: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aboutMe {
+    display:flex;
+    align-content: flex-start;
+}
+
+.aboutMe p {
+    color:black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color:cadetblue;
+    width: 10%;
+    padding:0 20px 20px 20px;
+    margin-bottom: 20px;
+    border-right:2px solid;
+    text-align: right;
+}
+
+#Work{
+    padding-right:50px;
+}
+
+#about-me {
+    padding-right: 40px;
+}
+
+.work-examples {
+    display:flex;
+    align-content: flex-start;
+}
+
+.examples{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.examples section{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.examples p{
+    color:white;
+    background-color: olive;
+    padding: 5px 3px 3px 3px;
+    text-align:center;
+    position: relative;
+    bottom: 30px;
+}
+
+.examples img{
+    width:300px;
+    height: 200px;
+    padding:0 5px 0 5px;
+ 
+}
+.contact-me{
+    display:flex;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+ul li {
+    margin: 0 50px;
+    color:cornflowerblue;
+}
+
+footer p {
+    color:white;
+    background-color: grey;
+    text-align: center;   
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    div, ul, .examples {
+       height: 80%;
+       width: 80%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    div, ul, .examples {
+        height: 80%;
+        width: 80%;
+    }
+}
