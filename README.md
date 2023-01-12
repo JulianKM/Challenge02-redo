@@ -17,3 +17,6 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
 # Deployed Link and Screenshots
+https://juliankm.github.io/Challenge02-redo/
+
+<img width="1440" alt="Screenshot 2023-01-11 at 4 03 30 PM" src="https://user-images.githubusercontent.com/120419841/211944291-eb30d324-8e79-4d2e-b25f-6eb563ad539d.png">
